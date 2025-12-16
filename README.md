@@ -155,15 +155,13 @@ Dự án áp dụng **Entity Framework** để làm việc với **SQL Server**,
 
 ### 1️⃣ Clone Repository
 
-```bash
+
 git clone https://github.com/username/repository.git
 2️⃣ Cấu Hình Database
 Tạo database mới trong SQL Server
 
 Cập nhật chuỗi kết nối trong appsettings.json
 
-json
-Sao chép mã
 "ConnectionStrings": {
   "DefaultConnection": "Server=.;Database=ECommerceDB;Trusted_Connection=True;"
 }
@@ -173,8 +171,7 @@ Mở project bằng Visual Studio
 Build & Run (F5)
 
 📂 Cấu Trúc Dự Án
-bash
-Sao chép mã
+
 ECommerceMVC/
 │── Controllers/
 │── Models/
@@ -186,8 +183,7 @@ ECommerceMVC/
 │── Program.cs
 │── README.md
 📡 API Endpoints (Ví Dụ)
-http
-Sao chép mã
+
 GET    /api/products
 POST   /api/products
 PUT    /api/products/{id}
@@ -212,8 +208,6 @@ Email: duyvu11092004@gmail.com
 
 ⭐ Nếu bạn thấy project hữu ích, hãy star repo để ủng hộ nhé!
 
-markdown
-Sao chép mã
 
 ---
 
@@ -231,3 +225,4 @@ Nếu bạn muốn mình:
 - 🔹 Chuẩn hóa theo style **BigTech**
 
 👉 nói mình, mình làm tiếp cho đúng mục tiêu bạn dùng 💪
+
