@@ -1,7 +1,8 @@
 # 🛒 E-Commerce Website – ASP.NET MVC
 
-**Author:** Hồ Duy Vũ  
-📧 **Email:** duyvu11092004@gmail.com  
+- **Author**: Hồ Duy Vũ – Software Engineer | AI & Backend Developer
+- **GitHub**: https://github.com/Ho-Duy-Vu
+- **Email**: duyvu11092004@gmail.com 
 💻 **Platform:** Web Application  
 🧱 **Architecture:** MVC + RESTful API  
 
@@ -237,3 +238,4 @@ Nếu bạn muốn:
 - Thêm badge, screenshot, demo GIF
 
 👉 nói mình làm tiếp cho 🔥
+
