@@ -153,6 +153,14 @@ Dự án áp dụng **Entity Framework** để làm việc với **SQL Server**,
 
 ---
 
+# 📦 ECommerce MVC Project
+
+Dự án E-Commerce xây dựng bằng **ASP.NET MVC**, phục vụ mục tiêu học tập và phát triển hệ thống bán hàng cơ bản, có API mở rộng, dễ nâng cấp và tách frontend/backend trong tương lai.
+
+---
+
+## ⚙️ Hướng Dẫn Cài Đặt & Chạy Dự Án
+
 ### 1️⃣ Clone Repository
 
 
@@ -160,18 +168,23 @@ git clone https://github.com/username/repository.git
 2️⃣ Cấu Hình Database
 Tạo database mới trong SQL Server
 
-Cập nhật chuỗi kết nối trong appsettings.json
+Cập nhật chuỗi kết nối trong file appsettings.json
 
-"ConnectionStrings": {
-  "DefaultConnection": "Server=.;Database=ECommerceDB;Trusted_Connection=True;"
+json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=.;Database=ECommerceDB;Trusted_Connection=True;"
+  }
 }
+💡 Có thể thay Server=. bằng localhost hoặc tên SQL Server phù hợp với máy bạn.
+
 3️⃣ Chạy Ứng Dụng
 Mở project bằng Visual Studio
 
-Build & Run (F5)
+Build & Run bằng phím F5
 
 📂 Cấu Trúc Dự Án
-
+bash
 ECommerceMVC/
 │── Controllers/
 │── Models/
@@ -182,24 +195,24 @@ ECommerceMVC/
 │── appsettings.json
 │── Program.cs
 │── README.md
-📡 API Endpoints (Ví Dụ)
-
-GET    /api/products
-POST   /api/products
-PUT    /api/products/{id}
-DELETE /api/products/{id}
+📡 API Endpoints (Ví dụ)
+http
+GET     /api/products
+POST    /api/products
+PUT     /api/products/{id}
+DELETE  /api/products/{id}
 🚀 Định Hướng Phát Triển
-Thanh toán online (VNPay, MoMo)
+💳 Tích hợp thanh toán online (VNPay, MoMo)
 
-Phân quyền chi tiết hơn
+🔐 Phân quyền chi tiết hơn (Role-based Authorization)
 
-Dashboard quản trị
+📊 Dashboard quản trị
 
-Thống kê & báo cáo doanh thu
+📈 Thống kê & báo cáo doanh thu
 
-Chuyển sang .NET 6/7
+⬆️ Nâng cấp lên .NET 6 / .NET 7
 
-Tách Frontend & Backend (API-first)
+🧩 Tách Frontend & Backend theo hướng API-first
 
 👤 Thông Tin Tác Giả
 Name: Hồ Duy Vũ
@@ -208,21 +221,19 @@ Email: duyvu11092004@gmail.com
 
 ⭐ Nếu bạn thấy project hữu ích, hãy star repo để ủng hộ nhé!
 
+markdown
 
 ---
 
-### ✅ README này phù hợp cho:
-- Đồ án **ASP.NET MVC**
-- Môn **Lập trình Web / Công nghệ .NET**
-- Portfolio xin thực tập / fresher
-- Repo GitHub cá nhân
+### ✅ Cách dùng
+1. Mở file `README.md`
+2. **Xóa toàn bộ nội dung cũ**
+3. **Paste nguyên khối trên**
+4. Commit → push 👉 **KHÔNG lỗi**
 
-Nếu bạn muốn mình:
-- 🔹 Viết **README song ngữ**
-- 🔹 Rút gọn cho **1 trang báo cáo**
-- 🔹 Viết **báo cáo Word 10–20 trang**
-- 🔹 Sinh **Use Case / ERD / Database Schema**
-- 🔹 Chuẩn hóa theo style **BigTech**
+Nếu bạn muốn:
+- Gộp **README Portfolio + ECommerce** chung 1 style
+- Viết README theo phong cách **BigTech / Tech Lead / Senior**
+- Thêm badge, screenshot, demo GIF
 
-👉 nói mình, mình làm tiếp cho đúng mục tiêu bạn dùng 💪
-
+👉 nói mình làm tiếp cho 🔥
